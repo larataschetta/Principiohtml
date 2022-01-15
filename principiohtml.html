@@ -48,7 +48,9 @@
 
     </head>
 
-    <body bgcolor="pink" text="black"> 
+    <!-- BGCOLOR NOO-->
+
+    <body bgcolor="pink" text="black" style="background-color: rgb(209, 209, 226);"> 
         <header> header</header>
         <img src="https://static.videezy.com/system/resources/thumbnails/000/042/456/original/Sky-night-rotation-space-background.jpg" alt="imagen estrellas" width="15000" height="200">
         <a href="https://static.videezy.com/system/resources/thumbnails/000/042/456/original/Sky-night-rotation-space-background.jpg" target="_blank">link a imagen en otra pestaña con target</a>
@@ -72,8 +74,8 @@
         <p> aca <u>parrafo</u> subrayado con u</p>
         <p>aca <strike>parrafo</strike> tachado con strike o del</p>
         <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
-        <p>this is <small> small</small> text <p/>
-        <p>this is <mark> mark</mark> text con mark<p/>
+        <p>this is <small> small</small> text </p>
+        <p>this is <mark> mark</mark> text con mark</p>
         <p>I am so <q>cool</q>(con q)</p>
         <bdo dir="rtl">palabra al reves!</bdo>
 
@@ -190,7 +192,59 @@
             </tr>
           </table>
 
-    </body>
+          <br>
+          <style>
+            table, th, td {
+              border: 2px solid red;
+            }
+          </style>
+
+          <table>
+            <tr>
+              <th>Month</th>
+              <th>Savings</th>
+            </tr>
+            <tr>
+              <td>January</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>February</td>
+              <td>$80</td>
+            </tr>
+          </table>
+
+          <br>
+
+          <table border="2">
+            <tr>
+              <td>cosa</td>
+              <td>color</td>
+              <td>año</td>
+            </tr>
+              <td colspan="3">nada</td>
+              <td> si</td>
+          </table>
+
+          <br>
+
+          <input type="checkbox"> tarea uno
+          <br>
+          <input type="password" name="contra" id="asda" placeholder="contraseña">
+          <input type="email" name="" id="" placeholder="email">
+          <input type="text" name="" id="" placeholder="poner algo">
+
+          <br/>
+          
+          <select name="algo" id="algop">
+            <option value="uno">opcion uno</option>
+            <option value="dos">opcion dos</option>
+          </select>
+
+          <textarea name="asd" id="" cols="30" rows="10">sdasd</textarea>
+
+          <p title="esto es">PARRAFO</p> <!-- al pasar mouse se ve titulo-->
+        </body>
 
 
 </html>
